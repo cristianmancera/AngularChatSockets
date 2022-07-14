@@ -1,0 +1,5 @@
+package com.cdam.springboot.backend.chat.controllers;
+
+public class ChatController {
+
+}

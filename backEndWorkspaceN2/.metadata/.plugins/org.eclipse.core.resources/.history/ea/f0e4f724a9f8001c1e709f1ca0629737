@@ -1,0 +1,9 @@
+package com.cdam.springboot.backend.chat.models.dao;
+
+import org.springframework.data.mongodb.repository.MongoRepository;
+
+import com.cdam.springboot.backend.chat.models.documents.Mensaje;
+
+public interface ChatRepository extends MongoRepository<Mensaje, String>{
+
+}

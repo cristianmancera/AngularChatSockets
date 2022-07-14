@@ -1,0 +1,13 @@
+package com.cdam.springboot.backend.chat.controllers;
+
+import org.springframework.messaging.handler.annotation.MessageMapping;
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class ChatController {
+
+	@MessageMapping("/mensaje")
+	public void recibeMensaje() {
+		
+	}
+}
